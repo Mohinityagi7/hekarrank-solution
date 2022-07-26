@@ -1,9 +1,10 @@
 A left rotation operation on an array of size  shifts each of the array's elements  unit to the left. Given an integer, , rotate the array that many steps left and return the result.
 
 Example
+d = 2
+arr = [1,2,3,4,5]
 
-
-After  rotations, .
+After 2 rotations, arr' = [3,4,5,1,2]
 
 Function Description
 
@@ -83,7 +84,7 @@ if __name__ == '__main__':
     
     
     
-<h2>not a function</h2>
+<h2> Not a using function</h2>
 A = [1,2,3,4,5]
 reverse = A[4::]+A[:4:]
 print(reverse)
